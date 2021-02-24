@@ -254,8 +254,11 @@ def lock_length(ui):
     description = xgen_handler.get_description(name)
     lock = ui.lock_length_checkBox.isChecked()
     if description:
-        for crv in xgen_handler.get_connected_curve_guides(description):
-            curve.lock_length(crv, lock)
+        try:
+            for crv in xgen_handler.get_connected_curve_guides(description):
+                curve.lock_length(crv, lock)
+        except TypeError:
+            pass
 
 # -----------------------------------------------------------------------------
 # Context functions

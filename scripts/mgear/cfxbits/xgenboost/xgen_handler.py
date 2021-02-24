@@ -13,12 +13,7 @@ def get_connected_curve_guides(xgen_description):
     """
     curv2spline_node = get_curve_to_spline_node(xgen_description)
     if curv2spline_node:
-        guides = curv2spline_node.inputCurves.listConnections()
-        if guides:
-            print guides
-            return guides
-        else:
-            return []
+        return curv2spline_node.inputCurves.listConnections()
 
 
 def filter_curve_guides(crvs, xgen_description):
