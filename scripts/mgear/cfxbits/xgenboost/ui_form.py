@@ -1,5 +1,5 @@
 from mgear.core import pyqt
-from mgear.vendor.Qt import QtCore, QtWidgets
+from mgear.vendor.Qt import QtCore, QtWidgets, QtGui
 
 class Ui_Form(object):
     def setupUi(self, Form):
