@@ -1,14 +1,5 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'C:/datawork/repo/cfxbits/scripts/mgear/cfxbits/xgenboost/ui_form.ui',
-# licensing of 'C:/datawork/repo/cfxbits/scripts/mgear/cfxbits/xgenboost/ui_form.ui' applies.
-#
-# Created: Tue Feb 23 18:01:06 2021
-#      by: pyside2-uic  running on PySide2 5.12.5
-#
-# WARNING! All changes made in this file will be lost!
-
-from PySide2 import QtCore, QtGui, QtWidgets
+from mgear.core import pyqt
+from mgear.vendor.Qt import QtCore, QtWidgets
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -1172,36 +1163,36 @@ class Ui_Form(object):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(QtWidgets.QApplication.translate("Form", "Form", None, -1))
-        self.groupBox.setTitle(QtWidgets.QApplication.translate("Form", "Create", None, -1))
-        self.xgen_description_label.setText(QtWidgets.QApplication.translate("Form", "Description", None, -1))
-        self.xgen_description_pushButton.setText(QtWidgets.QApplication.translate("Form", "<<", None, -1))
-        self.add_curve_pushButton.setText(QtWidgets.QApplication.translate("Form", "Add Curve Guide", None, -1))
-        self.groupBox_2.setTitle(QtWidgets.QApplication.translate("Form", "Modify", None, -1))
-        self.duplicate_pushButton.setToolTip(QtWidgets.QApplication.translate("Form", "Duplicate Click Session.", None, -1))
-        self.duplicate_pushButton.setText(QtWidgets.QApplication.translate("Form", "Duplicate", None, -1))
-        self.duplicate_sym_pushButton.setToolTip(QtWidgets.QApplication.translate("Form", "Duplicate selection symmetrical", None, -1))
-        self.duplicate_sym_pushButton.setText(QtWidgets.QApplication.translate("Form", "Dup. Sym.", None, -1))
-        self.move_pushButton.setToolTip(QtWidgets.QApplication.translate("Form", "Mode guide click session", None, -1))
-        self.move_pushButton.setText(QtWidgets.QApplication.translate("Form", "Move", None, -1))
-        self.color_groupBox.setTitle(QtWidgets.QApplication.translate("Form", "Color", None, -1))
-        self.groupBox_4.setTitle(QtWidgets.QApplication.translate("Form", "Options", None, -1))
-        self.lock_length_checkBox.setToolTip(QtWidgets.QApplication.translate("Form", "Lock guides lenght", None, -1))
-        self.lenght_label.setText(QtWidgets.QApplication.translate("Form", "Length", None, -1))
-        self.sections_label.setText(QtWidgets.QApplication.translate("Form", "Points", None, -1))
-        self.thickness_label.setText(QtWidgets.QApplication.translate("Form", "Thickness", None, -1))
-        self.label_5.setText(QtWidgets.QApplication.translate("Form", "Interpolate", None, -1))
-        self.interpolated_shape_checkBox.setToolTip(QtWidgets.QApplication.translate("Form", "Interpolate Curve Guide Shape", None, -1))
-        self.interpolated_shape_checkBox.setText(QtWidgets.QApplication.translate("Form", "Shape", None, -1))
-        self.interpolated_scale_checkBox.setToolTip(QtWidgets.QApplication.translate("Form", "Interpolate Curve Guide Scale", None, -1))
-        self.interpolated_scale_checkBox.setText(QtWidgets.QApplication.translate("Form", "Scl", None, -1))
-        self.interpolated_rotate_checkBox.setToolTip(QtWidgets.QApplication.translate("Form", "Interpolate Curve Guide Rotation", None, -1))
-        self.interpolated_rotate_checkBox.setText(QtWidgets.QApplication.translate("Form", " Rot", None, -1))
-        self.groupBox_5.setTitle(QtWidgets.QApplication.translate("Form", "Visibility", None, -1))
-        self.vis_hair_pushButton.setToolTip(QtWidgets.QApplication.translate("Form", "Duplicate Click Session.", None, -1))
-        self.vis_hair_pushButton.setText(QtWidgets.QApplication.translate("Form", "Toggle Hair", None, -1))
-        self.vis_guides_pushButton.setToolTip(QtWidgets.QApplication.translate("Form", "Duplicate selection symmetrical", None, -1))
-        self.vis_guides_pushButton.setText(QtWidgets.QApplication.translate("Form", "Toggle Guides", None, -1))
-        self.vis_scalp_pushButton.setToolTip(QtWidgets.QApplication.translate("Form", "Mode guide click session", None, -1))
-        self.vis_scalp_pushButton.setText(QtWidgets.QApplication.translate("Form", "Toggle Scalp", None, -1))
+        Form.setWindowTitle(pyqt.fakeTranslate("Form", "Form", None, -1))
+        self.groupBox.setTitle(pyqt.fakeTranslate("Form", "Create", None, -1))
+        self.xgen_description_label.setText(pyqt.fakeTranslate("Form", "Description", None, -1))
+        self.xgen_description_pushButton.setText(pyqt.fakeTranslate("Form", "<<", None, -1))
+        self.add_curve_pushButton.setText(pyqt.fakeTranslate("Form", "Add Curve Guide", None, -1))
+        self.groupBox_2.setTitle(pyqt.fakeTranslate("Form", "Modify", None, -1))
+        self.duplicate_pushButton.setToolTip(pyqt.fakeTranslate("Form", "Duplicate Click Session.", None, -1))
+        self.duplicate_pushButton.setText(pyqt.fakeTranslate("Form", "Duplicate", None, -1))
+        self.duplicate_sym_pushButton.setToolTip(pyqt.fakeTranslate("Form", "Duplicate selection symmetrical", None, -1))
+        self.duplicate_sym_pushButton.setText(pyqt.fakeTranslate("Form", "Dup. Sym.", None, -1))
+        self.move_pushButton.setToolTip(pyqt.fakeTranslate("Form", "Mode guide click session", None, -1))
+        self.move_pushButton.setText(pyqt.fakeTranslate("Form", "Move", None, -1))
+        self.color_groupBox.setTitle(pyqt.fakeTranslate("Form", "Color", None, -1))
+        self.groupBox_4.setTitle(pyqt.fakeTranslate("Form", "Options", None, -1))
+        self.lock_length_checkBox.setToolTip(pyqt.fakeTranslate("Form", "Lock guides lenght", None, -1))
+        self.lenght_label.setText(pyqt.fakeTranslate("Form", "Length", None, -1))
+        self.sections_label.setText(pyqt.fakeTranslate("Form", "Points", None, -1))
+        self.thickness_label.setText(pyqt.fakeTranslate("Form", "Thickness", None, -1))
+        self.label_5.setText(pyqt.fakeTranslate("Form", "Interpolate", None, -1))
+        self.interpolated_shape_checkBox.setToolTip(pyqt.fakeTranslate("Form", "Interpolate Curve Guide Shape", None, -1))
+        self.interpolated_shape_checkBox.setText(pyqt.fakeTranslate("Form", "Shape", None, -1))
+        self.interpolated_scale_checkBox.setToolTip(pyqt.fakeTranslate("Form", "Interpolate Curve Guide Scale", None, -1))
+        self.interpolated_scale_checkBox.setText(pyqt.fakeTranslate("Form", "Scl", None, -1))
+        self.interpolated_rotate_checkBox.setToolTip(pyqt.fakeTranslate("Form", "Interpolate Curve Guide Rotation", None, -1))
+        self.interpolated_rotate_checkBox.setText(pyqt.fakeTranslate("Form", " Rot", None, -1))
+        self.groupBox_5.setTitle(pyqt.fakeTranslate("Form", "Visibility", None, -1))
+        self.vis_hair_pushButton.setToolTip(pyqt.fakeTranslate("Form", "Duplicate Click Session.", None, -1))
+        self.vis_hair_pushButton.setText(pyqt.fakeTranslate("Form", "Toggle Hair", None, -1))
+        self.vis_guides_pushButton.setToolTip(pyqt.fakeTranslate("Form", "Duplicate selection symmetrical", None, -1))
+        self.vis_guides_pushButton.setText(pyqt.fakeTranslate("Form", "Toggle Guides", None, -1))
+        self.vis_scalp_pushButton.setToolTip(pyqt.fakeTranslate("Form", "Mode guide click session", None, -1))
+        self.vis_scalp_pushButton.setText(pyqt.fakeTranslate("Form", "Toggle Scalp", None, -1))
 
